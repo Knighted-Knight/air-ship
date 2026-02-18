@@ -1,8 +1,15 @@
 [gd_scene format=3 uid="uid://nxiahi3gs880"]
 
+[ext_resource type="Texture2D" uid="uid://dregfq4gjs1kq" path="res://Assets/cannon_airship.png" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://dyp0je80o57tf" path="res://Assets/assets0.png" id="1_v0iea"]
 
 [node name="Player" type="CharacterBody2D" unique_id=1438535165]
 
-[node name="Assets0" type="Sprite2D" parent="." unique_id=1303403062]
+[node name="CannonAirship" type="Sprite2D" parent="." unique_id=133736209]
+position = Vector2(-253, 116)
+rotation = 3.1415927
+scale = Vector2(0.2, -0.2)
+texture = ExtResource("1_cvnsp")
+
+[node name="airship" type="Sprite2D" parent="." unique_id=1303403062]
 texture = ExtResource("1_v0iea")
